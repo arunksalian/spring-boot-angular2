@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+	selector: 'addbooks',
+	template:`<input type="text" name="title">
+		<input type="text" name="author">	
+`
+});
+
+export class AddBooksComponent {
+}
